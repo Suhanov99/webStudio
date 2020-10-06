@@ -1,0 +1,92 @@
+.header {
+    background: url(../img/background/header_bg.png) center center no-repeat;
+}
+h1 {
+    width: 1076px;
+    height: 115px;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 198px;
+}
+.description {
+    width: 831px;
+    height: 95px;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 52px;
+}
+.results {
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235px;
+    width: 1000px;
+}
+.block {
+    position: relative;
+    .one {
+        position: absolute;
+        transform: translate(-146px,-10px);
+    }
+    .number {
+        width: 99px;
+        height: 35px;
+        font-size: 48px;
+        font-weight: normal;
+        line-height: 0.63;
+        letter-spacing: 2.4px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .name {
+        width: 162px;
+        height: 14px;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 2;
+        letter-spacing: 0.9px;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__line {
+        background-color: white;
+        height: 2px;
+        width: 252px;
+        &_one {
+            position: absolute;
+            transform: translate(-255px);
+            width: 90px;
+        }
+        &_twoo {
+            position: absolute;
+            transform: rotate(90deg) translate(80px,84px);
+            width: 160px;
+        }
+        &_three {
+            position: absolute;
+            transform: rotate(90deg) translate(80px,335px);
+            width: 160px;
+        }
+        &_four {
+            position: absolute;
+            transform: translate(-255px, 160px)
+        }
+        &_five {
+            position: absolute;
+            transform: translate(-94px);
+            width: 90px;
+        }
+    }
+}
